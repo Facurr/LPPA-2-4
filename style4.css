@@ -1,0 +1,192 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.918);
+  color: white;
+}
+
+header {
+  background-color: #080708;
+  color: #ff7c00; /* Cambio del color del texto a naranja */
+  padding: 10px 0;
+}
+
+/* Resto del código CSS sin cambios */
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 180px;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  color: #ff7c00; /* Cambio del color del texto a naranja */
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #fff; /* Cambio del color del texto al hacer hover */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: orange;
+}
+
+p {
+  color: whitesmoke;
+  line-height: 1.5;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Estilos de los artículos */
+article {
+  margin-bottom: 40px;
+}
+
+/* Estilos de los títulos de los artículos */
+article h2 {
+  color: orange;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Estilos del primer artículo */
+article:first-of-type {
+  background-color: rgba(39, 38, 38, 0.664);
+}
+
+/* Estilos del segundo artículo */
+article:nth-of-type(2) {
+  background-color: rgba(39, 38, 38, 0.664);
+}
+
+/* Estilos del tercer artículo */
+article:last-of-type {
+  background-color: rgba(39, 38, 38, 0.664);
+}
+
+/* Estilos del cuarto artículo */
+article:nth-of-type(4) {
+  background-color: rgba(39, 38, 38, 0.664);
+}
+
+.footer {
+  text-align: center;
+  background-color: black;
+  padding: 30px 0;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-column {
+  flex: 1 1 300px;
+  margin-bottom: 20px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: orange;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  font-size: 14px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons li {
+  margin: 0 5px;
+}
+
+.social-icons li a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* Descripciones de las imagenes */
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 8px;
+  color: white;
+}
+
+.image-overlay p {
+  margin: 0;
+}
